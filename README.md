@@ -21,10 +21,46 @@ This list will be updated continuously as more notebooks are added
 To use these notebooks, you'll need Python along with common data science libraries like NumPy, Pandas, Matplotlib, Scikit-Learn, etc. Each notebook has the necessary import statements.
 You can view the notebooks statically on GitHub. However, to modify code and re-run, you'll want to clone or download the repository locally.
 
+## Installation
+
+To run these notebooks locally, make sure you have the following dependencies installed:
+
+- Python 3.x
+- Jupyter Notebook or JupyterLab.
+- Required libraries (e.g., pandas, numpy, scikit-learn, statsmodels, scipy)
+
+You can install the necessary packages using pip:
+
+```bash
+pip install pandas numpy scikit-learn
+```
+Alternatively, you can use Kaggle or Google Colab directly to access and run the notebooks online.
+
+## Folder Structure
+
+```
+├── notebooks/
+│   ├── 
+│   ├── .ipynb
+│   └── ...
+├── data/
+│   ├── 
+│   ├── 
+│   └── ...
+├── README.md
+└── LICENSE
+```
 ## Acknowledgments 
 
-The core of some ntebooks were adapted from the excellent [Python for Data Analysis](https://www.kaggle.com/code/hamelg/python-for-data-analysis-index) resource on Kaggle by GREG HAMEL. I have enriched the original notebooks with additional explanations, examples, and exercises as well as create new notebooks.
+I’d like to acknowledge Hamel, G.'s fantastic work on [Kaggle](https://www.kaggle.com/code/hamelg/python-for-data-analysis-index). Their resource provided valuable insights and inspired parts of my notebooks.
 
 ## Contributions
 
 While I aim to ensure accuracy, these notebooks may have errors. If you spot any issues or have suggestions to improve the content, please feel free to submit a pull request or open an issue.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
+
