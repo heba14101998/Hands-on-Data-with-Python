@@ -23,7 +23,7 @@ You can view the notebooks statically on GitHub. However, to modify code and re-
 
 ## Acknowledgments 
 
-The core of some ntebooks were adapted from the excellent [Python for Data Analysis](https://www.kaggle.com/code/hamelg/python-for-data-analysis-index) resource on Kaggle by Hamel Husain. I have enriched the original notebooks with additional explanations, examples, and exercises.
+The core of some ntebooks were adapted from the excellent [Python for Data Analysis](https://www.kaggle.com/code/hamelg/python-for-data-analysis-index) resource on Kaggle by GREG HAMEL. I have enriched the original notebooks with additional explanations, examples, and exercises as well as create new notebooks.
 
 ## Contributions
 
