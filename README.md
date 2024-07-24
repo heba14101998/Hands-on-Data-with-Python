@@ -10,7 +10,7 @@ The notebooks are organized into the following categories:
 2. **Probability Distributions**: Basic probability theory, random variables, distributions.
 3. **Statistical Inference**: Hypothesis testing, confidence intervals.
 4. **Linear Regression**: Simple, multiple linear regression models, and polynomial regression. Discussion on linear regression assumptions with code examples.
-5. **Logistic Regression**: Binary and multiclass classification using logistic regression, with various performance metrics.
+5. **Logistic Regression**: Binary classification using logistic regression, with various performance metrics using this [book](https://learning.oreilly.com/library/view/grokking-machine-learning/9781617295911/Text/06.xhtml#heading_id_12) as reference.
 6. **Support Vector Machines (SVM)**: Support vector classifiers (SVC) and support vector regression (SVR)
 7. **Generalized Linear Models (GLM)** 
 
