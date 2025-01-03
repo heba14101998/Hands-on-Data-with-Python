@@ -1,34 +1,42 @@
 ---
 # Python Notebooks for Data Science
 ---
-This repository contains a collection of Python notebooks covering various topics in statistics and machine learning for data science applications. The notebooks provide shallow explanations, examples, and coding exercises to help solidify understanding.
+This repository offers a comprehensive collection of Python notebooks that serve as a detailed guide to key topics in statistics and machine learning for data science applications. 
+
+Each notebook includes clear explanations, practical examples, and hands-on coding exercises to reinforce learning. Designed for beginners and learners at any level, these resources cover foundational concepts, step-by-step implementations from scratch, and real-world applications using Scikit-learn. 
+
+Whether you're new to data analysis or looking to enhance your machine learning skills, this repository provides a structured and practical approach to mastering these techniques.
+
+## Used Datasets
+This repository includes small to medium-sized datasets in the `datasets` directory, but larger datasets are excluded due to size constraints. For these, source URLs are provided in text file that has the same name of the dataset. Download the missing datasets from the provided URLs and place them in the `datasets` directory to ensure the code runs properly. For any issues, feel free to open an issue.
 
 ## Contents
 
 The notebooks are organized into the following categories:
 
-# Hands-on Data with Python
+**[101] Data Exploration and Preprocessing:** All notebooks starts with **101** code is the machine leaning and data science.
 
-This repository contains Jupyter notebooks covering various data science topics, with a focus on practical applications using Python. The notebooks are designed for beginners and anyone looking to learn data analysis and machine learning techniques.
+- **`101-01-linear-algebra.ipynb`**: Covers the fundamentals of linear algebra, including vectors, matrices, and operations.
+- **`101-02-descriptive-statistics.ipynb`**: Covers descriptive statistics, data visualization, and understanding key metrics for data analysis.
+- **`101-03-probability-distributions.ipynb`**: Introduces basic probability theory, random variables, distributions.
+- **`101-04-T-testing-and-error-types`**:  Explains hypothesis testing, confidance interval, t-tests, and how to perform them in Python.
 
-## Topics Covered
+**[202] Feature Engineering and Selection:**
+All notebooks starts with **202** code is the machine leaning and data science.
+- **`202-01-feature-selection-part1.ipynb`**: Assessing the relationship between features and the target variable. As well as a comprehensive guide to various methods for feature selection, including filter, wrapper, and embedded techniques.
 
-**1. Data Exploration and Preprocessing:**
+- **`202-02-feature-selection-part2.ipynb`**: Explores feature engineering techniques to improve model performance, covers different feature selection methods, and demonstrates their implementation.
 
-- **`python-for-data-21-descriptive-statistics.ipynb`**: Covers descriptive statistics, data visualization, and understanding key metrics for data analysis.
-- **`python-for-data-22-probability-distributions.ipynb`**: Introduces basic probability theory, random variables, distributions.
-- **`python-for-data-23-hypothesis-testing.ipynb`**:  Explains hypothesis testing, confidance interval, t-tests, and how to perform them in Python.
+- **`202-03-feature-extraction-(pca-t.sne-umap).ipynb`**: a comprehensive guide to dimensionality reduction techniques, specifically focusing on PCA, t-SNE, and UMAP. It includes theoretical explanations, step-by-step implementations from scratch, and practical applications using Scikit-learn. 
 
-**2. Feature Engineering and Selection:**
+**[303] Machine Learning Algorithms:**
 
-- **`python-for-data-26-feature-selection.ipynb`**:  Explores feature engineering techniques to improve model performance, covers different feature selection methods, and demonstrates their implementation.
-
-**3. Machine Learning Algorithms:**
-
-- **`python-for-data-27-linear-regression.ipynb`**: Introduces simple, multiple linear regression models, and polynomial regression. Discussion on linear regression assumptions
-- **`python-for-data-28-regression-analysis-and-glmm.ipynb`**:  Expands on regression analysis, including generalized linear models (GLMs).
-- **`python-for-data-29-logistic-regression.ipynb`**:  Covers binary classification using logistic regression, with various performance metrics using this [book](https://learning.oreilly.com/library/view/grokking-machine-learning/9781617295911/Text/06.xhtml#heading_id_12) as reference.
-- **`python-for-data-30-support-vector-machine-svm.ipynb`**:  Explores Support Vector Machines (SVMs), a versatile algorithm for both classification and regression tasks.
+- **`303-01-linear-regression.ipynb`**: Introduces simple, multiple linear regression models, and polynomial regression. Discussion on linear regression assumptions
+- **`303-02-regression-analysis-and-glmm.ipynb`**:  Expands on regression analysis, including generalized linear models (GLMs).
+- **`303-03-logistic-regression.ipynb`**:  Covers binary classification using logistic regression, with various performance metrics using this [book](https://learning.oreilly.com/library/view/grokking-machine-learning/9781617295911/Text/06.xhtml#heading_id_12) as reference.
+- **`303-04-support-vector-machine-svc.ipynb`**:  Explores Support Vector Machines (SVMs), a versatile algorithm for both classification and regression tasks.
+- **`303-05-support-vector-machine-svr.ipynb`**:  comming soon
+- **`303-06-descion-tree.ipynb`**:  comming soon
 
 ## Getting Started
 
